@@ -686,7 +686,7 @@ https://tailwindcss.com/docs
 
 
 ## Architecture Diagram
-![Diagram](<ror/week03-company-profile/docs/Flow.png>)
+![diagram](Flow.png)
 
 
 
