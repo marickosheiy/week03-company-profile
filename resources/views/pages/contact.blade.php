@@ -44,14 +44,39 @@
             </div>
 
             <div class="social-links">
-                <strong>Follow Us</strong>
 
-                <div>
-                    <a href="#">Facebook</a>
-                    <a href="#">Instagram</a>
-                    <a href="#">LinkedIn</a>
-                </div>
-            </div>
+    <strong>FOLLOW US</strong>
+
+    <div class="social-list">
+
+        <a href="#" class="social-item">
+            <span class="social-name">Instagram</span>
+            <span class="social-handle">@velora.digital</span>
+        </a>
+
+        <a href="#" class="social-item">
+            <span class="social-name">Facebook</span>
+            <span class="social-handle">Velora Digital</span>
+        </a>
+
+        <a href="#" class="social-item">
+            <span class="social-name">TikTok</span>
+            <span class="social-handle">@veloradigital</span>
+        </a>
+
+        <a href="#" class="social-item">
+            <span class="social-name">LinkedIn</span>
+            <span class="social-handle">Velora Digital</span>
+        </a>
+
+        <a href="#" class="social-item">
+            <span class="social-name">X</span>
+            <span class="social-handle">_velora.digital</span>
+        </a>
+
+    </div>
+
+</div>
 
         </div>
 

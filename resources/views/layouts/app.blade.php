@@ -1720,6 +1720,66 @@
 
         }
 
+        /* =====================================================
+   SOCIAL MEDIA
+===================================================== */
+
+.social-links {
+    margin-top: 35px;
+}
+
+.social-links > strong {
+    display: block;
+    color: var(--rose);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.social-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.social-item {
+    display: flex;
+    flex-direction: column;
+    min-width: 125px;
+    padding: 12px 15px;
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.25s ease;
+}
+
+.social-name {
+    color: var(--dark);
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.social-handle {
+    color: var(--text);
+    font-size: 11px;
+}
+
+.social-item:hover {
+    background: var(--rose);
+    border-color: var(--rose);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px [weird thing]rgba(201, 107, 136, 0.18);
+}
+
+.social-item:hover .social-name,
+.social-item:hover .social-handle {
+    color: white;
+}
+
     </style>
 
 </head>
