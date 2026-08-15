@@ -685,6 +685,10 @@ Tailwind Labs. (n.d.). *Tailwind CSS documentation*.
 https://tailwindcss.com/docs  
 
 
+## Architecture Diagram
+![Diagram](<Laravel Flow Architecture.png>)
+
+
 
 
 
