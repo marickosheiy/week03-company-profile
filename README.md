@@ -1,35 +1,3 @@
-Yes. Let's **fix the whole README from beginning to end** so you can replace your current one in one go.
-
-I also fixed the issues I saw in your uploaded README: the broken Markdown headings, the local `C:\Users\...` screenshot paths, the leftover ChatGPT instructions at the bottom, and the screenshot placeholders. Your current README already has the required sections and some screenshots inserted. 
-
-### Important before you paste
-
-For screenshots, I'm going to use this folder structure:
-
-```text
-docs/
-└── screenshots/
-    ├── home.png
-    ├── about.png
-    ├── services.png
-    ├── contact.png
-    ├── navbar.png
-    ├── footer.png
-    ├── routes.png
-    ├── controller.png
-    ├── blade-layout.png
-    └── blade-components.png
-```
-
-**You don't need to create those screenshots yet.** We'll do them after the README is fixed.
-
----
-
-# Replace your entire `README.md` with this
-
-````markdown
-# Velora Digital - Company Profile Website
-
 ## 1. Project Title
 
 **Velora Digital - Company Profile Website**
@@ -198,7 +166,7 @@ Route::get('/contact', [CompanyController::class, 'contact'])
 
 ### Screenshot - Route Definitions
 
-![Route Definitions](docs/screenshots/routes.png)
+![Route Definitions](docs/screenshot/routes.png)
 
 ---
 
@@ -264,7 +232,7 @@ Each method returns the Blade view corresponding to a specific page.
 
 ### Screenshot - CompanyController.php
 
-![CompanyController](docs/screenshots/controller.png)
+![CompanyController](docs/screenshot/companycontroller.png)
 
 ---
 
@@ -415,11 +383,11 @@ This prevents the navigation bar and footer from having to be copied into every 
 
 ### Screenshot - Blade Layout
 
-![Blade Layout](docs/screenshots/blade-layout.png)
+![Blade Layout](docs/screenshot/bladelayout.png)
 
 ### Screenshot - Blade Components
 
-![Blade Components](docs/screenshots/blade-components.png)
+![Blade Components](docs/screenshot/components.png)
 
 ---
 
@@ -446,7 +414,7 @@ The `routes` folder contains route definitions that determine how the applicatio
 
 For this project:
 
-```text
+```textF
 routes/
 └── web.php
 ```
