@@ -1574,6 +1574,13 @@
 
             }
 
+            .footer-bottom {
+                flex-direction: column;
+                gap: 8px;
+            }
+
+        }
+
 
             .nav-links {
 
@@ -1743,6 +1750,111 @@
     color: white;
 }
 
+/* FOOTER */
+
+.site-footer {
+    background: #292326;
+    color: white;
+    padding: 65px 8% 25px;
+}
+
+.footer-container {
+    max-width: 1100px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: 60px;
+}
+
+.footer-logo {
+    display: inline-block;
+
+    color: white;
+
+    font-family: 'Playfair Display', serif;
+
+    font-size: 24px;
+    font-weight: 600;
+
+    text-decoration: none;
+
+    margin-bottom: 15px;
+}
+
+.footer-brand p {
+    max-width: 320px;
+
+    color: #c9bec2;
+
+    font-size: 13px;
+
+    line-height: 1.8;
+}
+
+.footer-links h3,
+.footer-social h3 {
+    color: white;
+
+    font-family: 'Inter', sans-serif;
+
+    font-size: 12px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 18px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links a {
+    color: #c9bec2;
+
+    text-decoration: none;
+
+    font-size: 13px;
+
+    margin-bottom: 8px;
+}
+
+.footer-links a:hover {
+    color: #c96b88;
+}
+
+.footer-social p {
+    color: #c9bec2;
+
+    font-size: 13px;
+
+    margin-bottom: 8px;
+}
+
+.footer-bottom {
+    max-width: 1100px;
+
+    margin: 50px auto 0;
+
+    padding-top: 20px;
+
+    border-top: 1px solid rgba(255,255,255,0.12);
+
+    display: flex;
+
+    justify-content: space-between;
+
+    gap: 20px;
+}
+
+.footer-bottom p {
+    color: #958a8e;
+
+    font-size: 11px;
+}
     </style>
 
 </head>
@@ -1753,6 +1865,8 @@
     @include('components.navbar')
 
     @yield('content')
+
+    @include('components.footer')
 
 </body>
 
