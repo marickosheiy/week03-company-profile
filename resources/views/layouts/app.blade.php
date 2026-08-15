@@ -1763,8 +1763,24 @@
     margin: auto;
 
     display: grid;
-    grid-template-columns: 1.5fr 1fr 1fr;
-    gap: 60px;
+    grid-template-columns: 1.4fr 0.8fr 1.2fr;
+    gap: 45px;
+}
+
+.footer-contact h3 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 18px;
+}
+
+.footer-contact p {
+    color: #c9bec2;
+    font-size: 13px;
+    line-height: 1.7;
+    margin-bottom: 8px;
 }
 
 .footer-logo {
